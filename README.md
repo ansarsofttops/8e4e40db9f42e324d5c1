@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Run rake db:seed to load dummy data, there is also user credentials
+
+There is a rake task which cab be run using crone or any active job/sidekiq etc in each minute to get results

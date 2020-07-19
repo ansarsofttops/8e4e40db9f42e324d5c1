@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :favorite_shows
+
+  has_many :tv_shows, through: :favorite_shows
 end
